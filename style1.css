@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    margin:20px 15px;
+    padding:20px;
+    font-weight: bold;
+ 
+}
+div{
+    background-image: url("layers-loop.h264.2020-12-21-11_16_56.gif"); 
+    background-size: cover;
+    width:65%;
+    background-repeat: no-repeat;
+    color:white;
+    border:2px solid rgb(11, 11, 11);
+    border-radius: 5px;
+
+
+}
+fieldset{
+    background-image:url("easset_upload_file13810_262604_e.png");
+
+    color:black;
+    
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    color:black;
+    margin-top: 3px;
+    margin-left: 4px;
+  
+}
+input[type="submit"]:hover{
+   color:rgb(37, 37, 221);
+}
+img:hover{
+     border-radius: 0px;
+    transition: 1.1s;
+    scale: 1.1s;
+    transform:rotate(360deg);
+    margin-right: 5px;
+}
+div{
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="submit"]{
+    margin-bottom: 25px;
+    margin-left: 7px;
+    padding: 7px;
+    border-radius: 4px;
+}
+marquee:hover{
+    background-image: url("image_processing20210118-14716-18vruui.gif");
+    background-repeat: repeat;
+    background-size:20px;
+    /* background-position: center; */
+    color: #ffffff;
+    scale: 1.1s;
+    transition: 1.1s;
+    padding: 12px;
+}
+marquee{
+    margin-top: 7px;
+}
+#git,#gitt{
+    display: inline;
+    margin: 5px;
+}
